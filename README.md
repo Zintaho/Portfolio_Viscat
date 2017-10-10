@@ -9,27 +9,49 @@ https://github.com/Zintaho/Viscat
 https://drive.google.com/file/d/0B9aj10mhLz9QdVdUdW5PZHBQVjg/view?usp=sharing
 
 [SelectCat Folder]
+
+
 CatSelect.cs : 게임 시작 시 고양이를 선택
 
 [Main Folder]
+
+
 BuyManger.cs : 상점에서의 아이템 구매 행위에 대한 매니저
+
 CatManger.cs : 메인화면에서의 고양이 상태 매니저
+
 GameManager.cs : 메인화면 전체에 대한 매니저
+
 GiveItem.cs : 고양이 에게 인벤토리에서 아이템을 건내줌
+
 Item.cs : 아이템 클래스
+
 ItemManager.cs : 아이템 목록에 관한 매니저
+
 ShopManager.cs : 상점에 대한 매니저
+
 TextBalloonManager.cs : 말풍선에 대한 매니저
+
 TitleTextManager.cs : 플레이어의 칭호에 대한 매니저
 
+
 [Main/Uis Folder]
+
+
 GaugeManager.cs : 고양이의 상태 게이지에 대한 매니저
+
 >AffineGauges.cs , HealthGauges.cs, Hungergauges.cs : 각 상태 게이지에 대한 스크립트(GaugeManager를 상속)
+
 UIValue.cs : 수치를 표현하는 UI들의 Super Class
+
 >BellValue.cs, CoinValue.cs, FiveScore.cs, PikaScore.cs, TowerScore.cs : 각 수치 에 대한 Child Class (UIValue 를 상속)
+
 (위의 두 방식은 매번 새로운 요소가 나올 때 마다 상속받는 클래스를 생성해야 하므로 좋은방식이 아니다.)
+
 Gauges.cs : 게이지들
+
 LevelText.cs : 플레이어 레벨 표시
+
 SoundControl.cs : 음량 조절
 
 
